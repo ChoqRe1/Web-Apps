@@ -1,0 +1,16 @@
+<!-- Template pour le changelog
+
+YYYY-MM-DD  John Doe  <johndoe@example.com>
+
+    * myfile.ext (myfunction): my changes made
+    additional changes
+
+    * myfile.ext (unrelated_change): my changes made
+    to myfile.ext but completely unrelated to the above
+
+    * anotherfile.ext (somefunction): more changes
+-->
+2015-09-14  Rémi Choquette  <remichoq@gmail.com>
+
+    * index.html (pagePrincipale): changer l'architecture des pages
+    enlever le lien a la font "Shift" puisqu'elle était inutile

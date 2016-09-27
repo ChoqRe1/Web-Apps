@@ -1,0 +1,20 @@
+<div class="row">
+			 <div class="col-md-4">
+				<div class="thumbnail" style="border-radius: 50%;">
+                     <img class="img-circle" src="images/facebook.png">
+                 </div>
+				 
+			 </div>
+			 <h2 class="col-md-8">&Agrave; venir!</h2>
+			 <p>Envoyez nous vos notes via facebook.</p>
+         </div>
+		 <div class="row">
+			 <div class="col-md-4">
+				<div class="thumbnail" style="border-radius: 50%;">
+                     <img class="img-circle" src="images/twitter.png">
+                 </div>
+				 
+			 </div>
+			 <h2 class="col-md-8">&Agrave; venir!</h2>
+			 <p>Envoyez nous vos notes via twitter.</p>
+         </div>

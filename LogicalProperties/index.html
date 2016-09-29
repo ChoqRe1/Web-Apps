@@ -7,17 +7,16 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <style type="text/css">
         body {
-
-
             background-color: #f7f7f7;
             font-family: 'PT Sans', sans-serif;
         }
 
-        header {padding-left: 10%;
-        padding-right: 10%;}
+        header {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
 
         main {
-
             background-color: #c8f4f7;
             padding-left: 15%;
             padding-right: 15%;
@@ -25,9 +24,18 @@
             margin-right: 10%;
             box-shadow: 10px 10px 5px #7fc9ce;
             margin-bottom: 7%;
+            padding-top: 7%;
+            padding-bottom: 7%;
         }
-        main img{
-          padding: 3%;
+
+        main img {
+            padding: 3%;
+            width: 410px;
+            height: 420px;
+
+        }
+        main div{
+          text-align: center;
         }
         footer {
             background-color: #a8f2f7;
@@ -54,20 +62,19 @@
 <body>
     <!-- the sources of the images are identified by the name of said images-->
     <header>
-        <h1>Logical Properties</h1>
-        <h2>THE RIGHT HOME, AT THE RIGHT PRICE!</h2>
-
+        <img src="theheader.jpg" alt="the header of the page" style="width:100%">
     </header>
     <nav>
     </nav>
     <main>
-        <img src="Images/RealEstate.jpg" alt="Our selction of habitation areas" usemap="#maprealestate" />
-        <map name="maprealestate">
-  <area shape="rect" coords="0,0,228,224" alt="condo" href="">
-  <area shape="rect" coords="0,224,228,449" alt="country cottage" href="">
-  <area shape="rect" coords="228,0,449,224" alt="single-family" href="">
-  <area shape="rect" coords="228,224,449,449" alt="mobile" href="">
-  </map>
+        <br />
+        <h2>Here is a nice map of our available properties, please select one by simply clicking on it in the image!</h2>
+        <div><img src="Images/RealEstate.jpg" alt="Our selction of habitation areas" usemap="#maprealestate" /></div>
+        <map name="maprealestate"><area shape="rect" coords="0,0,230,230" alt="condo" href="condo.html">
+<area shape="rect" coords="0,230,230,449" alt="country cottage" href="condo.html">
+<area shape="rect" coords="230,0,449,228" alt="single-family" href="house.html">
+<area shape="rect" coords="230,230,449,449" alt="mobile" href="house.html">
+</map>
 
     </main>
 
@@ -84,8 +91,8 @@
             <div class="block2"><strong>Site Map:</strong><br />
 
                 <a href="index.html">Home</a><br />
-                <a href=""></a><br />
-                <a href=""></a><br />
+                <a href="condo.html">Condo</a><br />
+                <a href="house.html">House</a><br />
                 <a href=""></a><br />
                 <a href=""></a><br />
             </div>
